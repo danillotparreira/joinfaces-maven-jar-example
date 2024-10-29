@@ -21,7 +21,7 @@
     <properties>
         <!-- compile library versions -->
         <jakarta.validation-api.version>3.0.2</jakarta.validation-api.version>
-        <joinfaces.version>5.4.0-m3</joinfaces.version>
+        <joinfaces.version>5.4.0-rc1</joinfaces.version>
         <maven-model.version>3.9.9</maven-model.version>
 
         <!-- test library versions -->
@@ -59,7 +59,7 @@
         <checkstyle.configLocation>io/spring/javaformat/checkstyle/checkstyle.xml</checkstyle.configLocation>
         <checkstyle.excludes/>
         <duplicate-finder-maven-plugin.version>2.0.1</duplicate-finder-maven-plugin.version>
-        <duplicate.ignoredResourcePattern>(mozilla/public-suffix-list.txt)</duplicate.ignoredResourcePattern>
+        <duplicate.ignoredResourcePattern>(mozilla/public-suffix-list.txt|mockito-extensions/org.mockito.plugins.MockResolver)</duplicate.ignoredResourcePattern>
         <duplicate.ignoredClassPattern>()</duplicate.ignoredClassPattern>
 
         <dependency-check-maven.version>11.0.0</dependency-check-maven.version>
