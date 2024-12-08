@@ -31,7 +31,7 @@ public class WelcomeConverter implements Converter<String> {
 
 	@Override
 	public String getAsObject(FacesContext context, UIComponent component, String value) {
-		return value + " welcome!";
+        	return value != null ? value.replace("welcome!", "").trim() + " welcome!" : "welcome!";
 	}
 
 	@Override
